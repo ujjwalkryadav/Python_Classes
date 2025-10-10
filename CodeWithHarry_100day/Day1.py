@@ -1,13 +1,11 @@
-# I Install Python
-# What Is Programing.
-# Featurs Of Programin
-# Who Made Programing, Where Made, Why Made, How Made, When Made
-# Python Is open Source and platform indipendent
-# Easly integrated with other programing langwage
-# most popular langwage
 
-print("hello")
-print(5)
-
-
-
+#Summery Of Day 1
+'''
+1.I Install Python
+2.What Is Programing.
+3.Featurs Of Programin
+4.Who Made Programing, Where Made, Why Made, How Made, When Made
+5.Python Is open Source and platform indipendent
+6.Easly integrated with other programing langwage
+7.most popular langwage
+'''
