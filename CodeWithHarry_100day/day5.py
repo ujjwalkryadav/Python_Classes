@@ -63,7 +63,7 @@ print("Hello", 5, 5, end="0005\n") #end for a specific word print in end
 print("Hello, I am a student \nMy Roll Number is", 5,)
 print("My Football Score = ")
 print(2, 0, 5, sep=" and ")
-#program End ---------------
+#program End -----------------
 
 
 
