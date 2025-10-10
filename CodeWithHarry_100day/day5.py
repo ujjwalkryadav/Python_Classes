@@ -1,10 +1,10 @@
 #Summary Of Day 5
 '''
-Today I learned what is comment and multiline comment in Python,
-escape sequence character,
-about syntax error,
-about print,
-about separator, end.
+Today I learned about comments and multiline comments in Python,
+Escape sequence characters, 
+Syntax errors, 
+About print function, 
+Separators, and the end Parameter.
 '''
 
 #program 1 (Comments) ---------------
