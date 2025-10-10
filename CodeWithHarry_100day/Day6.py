@@ -23,7 +23,7 @@ print(h)
 print("Type = ", type(h))
 
 
-#Summary Of Day 5
+#Summary Of Day 6
 '''
 Today I learned about variables, datatypes, different types of datatypes.
 Overview of sequence data: list and tuple.
