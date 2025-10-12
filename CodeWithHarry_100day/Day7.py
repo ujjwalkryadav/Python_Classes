@@ -14,7 +14,7 @@ print("Division Of 5 and 10=", a / b)
 print("floor division Of 5 and 10=", a // b)
 print("modulus Of 5 and 10=", a % b)
 print("exponentiation Of 5 and 10=", a ** b)
-#program 1 -------------------
+#program end -------------------
 
 #Summary Of Day 7
 # Exercise 1 - Create a Calculator
