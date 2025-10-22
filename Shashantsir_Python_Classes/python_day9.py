@@ -1,4 +1,4 @@
-#Day9 
+# 🗓️ DAY 9 NOTES 
 #program 1 (  Bitwise AND Operator ) ---------------
 a = 10
 b = 4

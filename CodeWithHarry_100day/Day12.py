@@ -19,7 +19,7 @@ print(nm[-4:-2])  #I think Out Put Is 0 because both side we minus over
 
 
 
-
+#summery
 '''
 Learned that the len() function is used to count the total number of characters in a word or sentence.
 Understood that each letter in a string has an index number, starting from 0 on the left and negative numbers (-1, -2, …) from the right.

@@ -1,3 +1,4 @@
+# 🗓️ DAY 1 NOTES
 print("Jai Sri Ram")
 
 

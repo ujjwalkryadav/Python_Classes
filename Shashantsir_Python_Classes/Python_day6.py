@@ -1,3 +1,4 @@
+# 🗓️ DAY 6 NOTES
 # Operators 
 
 #program 1 (Assignment Operators) ---------------

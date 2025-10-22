@@ -1,3 +1,4 @@
+# 🗓️ DAY 2 NOTES
 print("Ansh Thakur!")
 print("Sonu")
 print("Ujwal Yadav")

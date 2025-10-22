@@ -1,4 +1,5 @@
-# 🟢 1️⃣ Input Function
+# # 🗓️ DAY 8 NOTES 
+# Input Function
 
 #program 1 ( INPUT FUNCTION SUM ) ---------------
 first_value = int(input("Enter first value: "))

@@ -1,3 +1,4 @@
+# 🗓️ DAY 7 NOTES
 # Operators 
 
 #program 1 (Logical Operators) ---------------

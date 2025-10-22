@@ -1,3 +1,4 @@
+# 🗓️ DAY 3 NOTES
 '''
 WHat is Python ?
 Where, who, when, why
