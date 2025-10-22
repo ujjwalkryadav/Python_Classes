@@ -1,79 +1,74 @@
 # 🗓️ DAY 11 NOTES
-# Topic: Bitwise Operators and Membership Operators
+# Topic: String, Quotation Marks, Concatenation, and Replication
 
-# 1️⃣ Bitwise AND Operator (&)
-a = 10
-b = 4
-x = 5
-y = 3
 
-print(a & b)   # 0
-print(x & y)   # 1
-print(5 & 6)   # 4
+# 1️⃣ Printing Strings with Different Quotation Marks
+print("this is Ravi")
+print('this is Ravi')
+print('''This is Ravi''')
 #program END ---------------
 
 
+# 2️⃣ Types of Quotation Marks
+# ' '   => Single Quotation mark
+# " "   => Double Quotation mark
+# ''' ''' => Triple Quotation mark
 
-# 2️⃣ Bitwise AND Explanation
-# Returns 1 if both bits are 1, else 0
-
-a = 10  # 1010
-b = 4   # 0100
-print(a & b)   # 0000 => 0
-
-x = 5   # 0101
-y = 3   # 0011
-print(x & y)   # 0001 => 1
-
-# Example: 5 & 6
-# 5 => 0101
-# 6 => 0110
-# Result => 0100 => 4
+first_sentence = "Rohan's watch"   # using double quotes outside
+second_sentence = 'Rohan'          # using single quotes
+third_sentence = '''It was the fantastic topic "Hostel life"'''
+print(first_sentence)
+print(second_sentence)
+print(third_sentence)
 #program END ---------------
 
 
-# 4️⃣ Bitwise OR Operator (|)
-A = 5
-B = 6
-print(A | B)
-# 5 = 0101
-# 6 = 0110
-# OR = 0111 => 7
+# 3️⃣ String Basics
+# Integer  -> 3, 4, 5, 6
+# Float    -> 3.3, 5.9
+# String   -> "Ravi", "Python", "Java"
+# Boolean  -> True, False
+# Character -> 'H'
+
+# String = sequence of characters
+# Example: "Pandey", "Niraj", "Ajit", "This is Ravi"
 #program END ---------------
 
 
-# 5️⃣ Bitwise XOR Operator (^)
-A = 5
-B = 6
-print(A ^ B)
-# 5 = 0101
-# 6 = 0110
-# XOR = 0011 => 3
+# 4️⃣ String Concatenation (+)
+first_name = "Sonu"
+last_name = "xyz"
+full_name = first_name + ' ' + last_name
+print(full_name)
+# Output: Sonu xyz
 #program END ---------------
 
 
-# 6️⃣ Membership Operators
-# Used to test whether a value exists in a sequence (like list, string, tuple, etc.)
+# 5️⃣ String Replication (*)
+first_name = "Sonu"
+last_name = "xyz"
+full_name = first_name + ' ' + last_name
 
-Ravi = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(5 in Ravi)        # True  -> 5 is present
-print(15 not in Ravi)   # True  -> 15 is not present
+print(first_name)
+print(full_name)
+print(full_name * 6)  # repeats the string 6 times
+
+name = "Ravi"
+print(name * 70)      # repeats 'Ravi' 70 times
 #program END ---------------
 
 
 '''
-📝 DAY 11 SUMMARY
+🧾 DAY 11 SUMMARY
 
 ✅ Today we learned:
-- Bitwise AND (&): Returns 1 if both bits are 1.
-- Bitwise OR (|): Returns 1 if at least one bit is 1.
-- Bitwise XOR (^): Returns 1 if bits are different.
-- Binary Number Representation (0–15).
-- Membership Operators (in, not in):
-    -> "in" checks if a value exists.
-    -> "not in" checks if a value doesn’t exist.
+- How to use different types of quotation marks:
+  ' ' (single), " " (double), ''' ''' (triple).
+- String is a sequence of characters.
+- String Concatenation (+): joins two strings together.
+- String Replication (*): repeats the same string multiple times.
 
-💡 Key Idea:
-Bitwise operators work at the **binary level** (bit-by-bit comparison),
-while membership operators work at the **sequence level** (list, string, etc.).
+💡 Main Concept:
+In coding, words or sentences are represented as **strings**.
+Using quotes properly helps in handling text data without syntax errors.
 '''
