@@ -60,7 +60,23 @@ match day:
         print("Sunday")
     case _:
         print("Invalid day number")
+# ---------------------------------------------
 
+
+# Revision Program---------------------------
+num = int(input("Enter a number: "))
+match num:
+    case 0:
+        print("Zero is neither even nor odd")
+
+    case _:
+        match num % 2:
+            case 0:
+                print(num, "is Even")
+            case 1:
+                print(num, "is Odd")
+
+# ---------------------------------------------
 
 
 '''
