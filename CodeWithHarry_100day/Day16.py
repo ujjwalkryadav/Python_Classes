@@ -6,9 +6,9 @@
 # The match-case statement is used for pattern matching.
 # It works similar to switch statements in other languages.
 # case _ is the default case.
-
+# ---------------------------------------------
 x = int(input("Enter the value of x: "))
-# x is the variable to match
+
 match x:
     # if x is 0
     case 0:
@@ -26,7 +26,7 @@ match x:
 
 
 
-# Practice Code
+# Practice Code-------------------------
 x = int(input("Enter value: "))
 
 match x:
@@ -39,16 +39,27 @@ match x:
     case _:
         print(x)
 
-# Revision Program
-num = int(input("Enter number: "))
 
-match num:
+# Revision Program---------------------------
+day = int(input("Enter day number (1-7): "))
+
+match day:
     case 1:
-        print("One")
+        print("Monday")
     case 2:
-        print("Two")
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case 4:
+        print("Thursday")
+    case 5:
+        print("Friday")
+    case 6:
+        print("Saturday")
+    case 7:
+        print("Sunday")
     case _:
-        print("Other")
+        print("Invalid day number")
 
 
 
