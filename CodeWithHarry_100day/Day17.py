@@ -27,7 +27,7 @@ for i in Fruits:
 for k in range(1, 12, 3): #third parameter is space.
   print(k)
 
-# Play With For Loop and If Elif else
+# Play With For Loop
 # ✅ Task 1: Print all the numbers from 1 to 100
 
 for i in range (1, 101):
