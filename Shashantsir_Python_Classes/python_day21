@@ -1,0 +1,75 @@
+# 🗓️ DAY 21 NOTES
+# Topic: LISTS + FOR LOOP ON SEQUENCE + LIST METHODS
+
+
+# PROGRAM 1 — Create a List    
+my_list = [11, 1.1, "Ravi", 66666] #List stores multiple data types.
+print(my_list)
+
+
+# PROGRAM 2 — Indexing
+my_list = [11, 22, 333, 43, 66, 77]
+print(my_list[2]) #Access element by index.
+
+
+# PROGRAM 3 — Print Complete List
+my_list = [11, 22, 333, 43, 66, 77]
+print(my_list)
+
+# PROGRAM 4 — For Loop Using Range (Only Index Prints)
+my_list = [11, 22, 333, 43, 66, 77]
+
+for i in range(0, 5):
+    print(i) #This prints index numbers, not list elements.
+
+
+# PROGRAM 5 — For Loop Directly on List
+my_list = [11, 22, 333, 43, 66, 77]
+
+for item in my_list:
+    print(item) #Direct loop → prints elements.
+
+
+# PROGRAM 6 — Variable Name Anything
+my_list = [11, 22, 333, 43, 66, 77]
+
+for rohit in my_list:
+    print(rohit)
+
+# PROGRAM 7 — For Loop on String
+my_name = "ROHIT"
+for ch in my_name:
+    print(ch.lower()) #Loop runs character-by-character.
+
+
+# PROGRAM 8 — Basic Repeating Loop
+for i in range(100):
+    print("Radhe Radhe")
+
+# LIST METHODS
+# PROGRAM 9 — append()
+my_list = [11, 22, 33, 44]
+print("Before:", my_list)
+
+my_list.append(99) #append() adds a single element at tail.
+print("After:", my_list)
+
+
+# PROGRAM 10 — extend() 
+my_list = [11, 22, 33, 44]
+print("Before:", my_list)
+
+my_list.extend([33333, 99999]) #extend() adds multiple elements.
+print("After:", my_list)
+
+
+'''
+# 🧾 DAY 20 SUMMARY-> 
+-> List stores multiple data types.-> 
+-> List indexing helps access elements.-> 
+-> for-loop using range → prints index.-> 
+-> for-loop on list → prints elements directly.
+-> for-loop on string → runs character-wise.
+-> append() → add single element at end.
+-> extend() → add multiple elements at end.
+'''
